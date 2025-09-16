@@ -1,0 +1,25 @@
+.header{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  span{
+    font-family: var(--font-manrope), sans-serif;
+    font-size: var(--font-size-m);
+    color: #4E5156;
+  }
+
+  h1{
+    font-family: var(--font-manrope), sans-serif;
+    font-weight: 700;
+    font-size: var(--font-size-xxl);
+  }
+}
+
+.header_lower{
+  height: 44px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}

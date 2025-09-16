@@ -1,0 +1,65 @@
+@mixin section_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1180px;
+  font-family: var(--font-manrope), serif;
+  font-weight: 500;
+  font-size: var(--font-size-l)
+}
+
+.header {
+  position: sticky;
+  background: rgba(254, 254, 254, 0.7);
+  backdrop-filter: blur(10px);
+  top: 0;
+  height: var(--header-height);
+  padding-right: 50px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+  border-bottom: 1px solid #D8E3EC;
+  z-index: 1000;
+}
+
+.info_section{
+  @include section_container;
+  height: 52px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+
+.contacts_wrapper{
+  width: 193px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icons_wrapper{
+  display: flex;
+  width: 56px;
+  height: 24px;
+  gap: 8px;
+}
+
+.for_clients{
+  width: 193px;
+  height: 22px;
+  display: flex;
+  gap: 24px;
+}
+
+.main_header_section {
+  @include section_container;
+  height: 46px;
+}
+
+.catalog{
+  width: 95px;
+  height: 22px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.button_clear {
+  background: none;
+  border: none;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

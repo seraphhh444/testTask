@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Open_Sans, Manrope } from "next/font/google";
+import '@/styles/styles.scss'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+
+const openSans = Open_Sans({
+  weight: ["800"],
+  style: ["italic"],
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-open-sans",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const manrope = Manrope({
+  weight: ["500", "600", "700"],
+  style: ["normal"],
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-manrope",
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="ru">
+      <body className={`${openSans.variable} ${manrope.variable}`}>
         {children}
       </body>
     </html>

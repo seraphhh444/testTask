@@ -1,0 +1,14 @@
+.logo_wrapper{
+  width: 111px;
+  height: 46px;
+}
+
+.logo{
+  display: flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-open-sans), sans-serif;
+  font-size: var(--font-size-xl);
+  color: var(--secondary-color);
+}

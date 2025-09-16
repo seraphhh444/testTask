@@ -1,0 +1,64 @@
+.select {
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 19px;
+  width: 394px;
+  font-size: var(--font-size-m);
+  font-family: var(--font-manrope), serif;
+  font-weight: 500;
+  border: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.select.medium {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 96px;
+  max-height: 22px;
+  font-size: var(--font-size-l);
+}
+
+.options_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 8px;
+  padding: 12px;
+  justify-content: center;
+  background: #FEFEFE;
+  width: 404px;
+  height: 70px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px 0px rgba(161, 172, 182, 0.2);
+}
+
+.options_container.medium {
+  width: 188px;
+  height: 98px;
+}
+
+.option {
+  transition: opacity 0.1s;
+  font-size: var(--font-size-m);
+}
+.option:hover {
+  opacity: 0.8;
+}
+
+.option.medium {
+  font-size: var(--font-size-l);
+}
+
+/*# sourceMappingURL=Select.module.css.map */

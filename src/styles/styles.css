@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #22252C;
+  --muted-color: #7A7C80;
+  --secondary-color: #474DFF;
+  --inverted-bg-color: #EDEEEE;
+  --accent-color: #7A7C80;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 32px;
+  --header-height: 110px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --font-manrope: "Manrope", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  font-size: var(--font-size-l);
+  color: var(--primary-color);
+}
+
+/*# sourceMappingURL=styles.css.map */

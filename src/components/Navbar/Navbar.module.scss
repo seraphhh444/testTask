@@ -1,0 +1,23 @@
+.navbar{
+  width: 268px;
+  height: 46px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_item{
+  text-decoration: none;
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 46px;
+  font-size: var(--font-size-m);
+  font-weight: 500;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}

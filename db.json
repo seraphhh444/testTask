@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": true
+    },
+    {
+      "id": "2",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": true
+    },
+    {
+      "id": "3",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": true
+    },
+    {
+      "id": "4",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": false
+    },
+    {
+      "id": "5",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": false
+    },
+    {
+      "id": "6",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": false
+    },
+    {
+      "id": "7",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": false
+    },
+    {
+      "id": "8",
+      "title": "Моторное масло",
+      "costBYN": "89.80",
+      "costUSD": "26",
+      "vin": "WBAPD52040WC92486",
+      "year": 2006,
+      "articleNumber": 2221093,
+      "liked": false
+    }
+  ]
+}

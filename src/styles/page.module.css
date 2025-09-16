@@ -1,0 +1,12 @@
+.upper_block {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  height: 44px;
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: var(--font-size-xxl);
+}
+
+/*# sourceMappingURL=page.module.css.map */
