@@ -1,6 +1,5 @@
 import Container from "@/components/Container/Container";
 import cls from "@/styles/page.module.scss";
-import Card from "@/components/Card/Card";
 import CardList from "@/components/CardList/CardList";
 import axios from "axios";
 

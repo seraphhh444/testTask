@@ -1,8 +1,13 @@
 .main {
-  max-height: 100%;
   overflow-y: auto;
   max-width: 1180px;
   margin: 15px auto 0;
+}
+
+@media (max-width: 768px) {
+  .main {
+    max-width: 344px;
+  }
 }
 
 /*# sourceMappingURL=Container.module.css.map */

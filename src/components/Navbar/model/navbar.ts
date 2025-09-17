@@ -27,3 +27,18 @@ export const navbarModel: NavItem[] = [
         imageSrc: User
     }
 ]
+
+export const mobileNavbarModel: NavItem[] = [
+    {
+        title: 'Гараж',
+        imageSrc: Garage
+    },
+    {
+        title: 'Избранное',
+        imageSrc: Likes
+    },
+    {
+        title: 'Корзина',
+        imageSrc: Bin
+    },
+]

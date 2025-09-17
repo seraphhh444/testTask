@@ -50,6 +50,7 @@
 }
 
 .option {
+  opacity: 1;
   transition: opacity 0.1s;
   font-size: var(--font-size-m);
 }

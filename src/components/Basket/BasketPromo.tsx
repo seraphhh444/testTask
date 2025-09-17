@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Button from "@/components/Button/Button";
 import Choose from "@/assets/Choose.svg";
-import cls from "./Basket.module.scss";
+import cls from "./BasketPromo.module.scss";
 
 const BasketPromo = () => {
     return (

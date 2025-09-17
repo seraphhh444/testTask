@@ -34,6 +34,9 @@
 .card_info_container{
   width: 280px;
   height: 181px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .title_container {
@@ -131,6 +134,7 @@
 
 .card_buttons_container{
   display: flex;
+  justify-content: space-between;
   gap: 8px;
 }
 
@@ -147,4 +151,70 @@
   position: absolute;
   right: 8px;
   top: 8px;
+}
+
+@media(max-width: 768px){
+  .card{
+    max-width: 164px;
+    max-height: 364px;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  .card_avatar{
+    max-width: 164px;
+    max-height: 180px;
+  }
+
+  .card_info_container{
+    max-width: 164px;
+    max-height: 114px;
+  }
+
+  .article{
+    max-width: 164px;
+    height: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--font-manrope), sans-serif;
+    font-size: 12px;
+    color: #22252C;
+  }
+
+  .title_container{
+    max-width: 164px;
+    height: 38px;
+  }
+
+  .cost_container {
+    max-width: 80px;
+    max-height: 48px;
+
+    .bun_cost{
+      color: var(--primary-color);
+      font-size: var(--font-size-l);
+    }
+
+    .usd_cost{
+      color: var(--accent-color);
+      font-size: var(--font-size-l);
+    }
+  }
+
+  .counter {
+    max-width: 110px;
+    max-height: 46px;
+  }
+
+  .bin_button{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+  }
 }

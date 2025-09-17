@@ -1,6 +1,6 @@
 .navbar{
-  width: 268px;
-  height: 46px;
+  max-width: 268px;
+  max-height: 46px;
   display: flex;
   gap: 16px;
   align-items: center;
@@ -19,5 +19,16 @@
 
   &:hover{
     opacity: 0.6;
+  }
+}
+
+@media(max-width: 768px){
+  .navbar{
+    max-width: 124px;
+    max-height: 24px;
+  }
+
+  .navbar_item{
+    max-height: 24px;
   }
 }

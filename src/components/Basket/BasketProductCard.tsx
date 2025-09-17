@@ -4,7 +4,7 @@ import Button from "@/components/Button/Button";
 import Minus from "@/assets/Minus.svg";
 import Plus from "@/assets/Plus.svg";
 import Cancel from "@/assets/Cancel.svg";
-import cls from "./Basket.module.scss";
+import cls from "./BasketProductCard.module.scss";
 import {absoluteDeleteItemBasket, addItemBasket, BasketItem, deleteItemBasket} from "@/services/basket/basketService";
 
 interface BasketProductCardProps {

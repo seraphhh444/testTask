@@ -4,6 +4,8 @@ import SearchIcon from '@/assets/Search.svg'
 import Button from "@/components/Button/Button";
 
 const Search = () => {
+
+
     return (
         <div className={cls.search_container}>
             <input className={cls.input} placeholder="Введите код или название товара" />

@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@/components/Button/Button";
-import cls from "./Basket.module.scss";
+import cls from "./BasketOrderSummary.module.scss";
 
 interface BasketOrderSummaryProps {
     sum: number;
