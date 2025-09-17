@@ -1,5 +1,6 @@
 import axios from "axios";
 import {Product} from "@/shared/types/product";
+import {BASKET_KEY} from "@/services/basket/basketService";
 
 export const LIKES_KEY = "favorites_products";
 
@@ -26,6 +27,15 @@ export const likePatch = async (product: Product, val: boolean)=>{
     }
 
     localStorage.setItem(LIKES_KEY, JSON.stringify(existing));
+
+    //basketUpdate
+    const existingBasket = JSON.parse(localStorage.getItem(BASKET_KEY) || "[]");
+
+    const basketIndex = existingBasket.findIndex((p: Product) => p.id === product.id);
+    if (basketIndex !== -1) {
+        existingBasket[basketIndex].liked = val; // 👈 меняем liked
+        localStorage.setItem(BASKET_KEY, JSON.stringify(existingBasket));
+    }
 }
 
 export const getLiked = ()=>{

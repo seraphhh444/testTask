@@ -1,0 +1,22 @@
+.basket_input {
+  padding: 16px;
+  width: 100%;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px dashed var(--accent-color);
+  color: var(--primary-color);
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--font-size-l);
+}
+
+.basket_input_container {
+  position: relative;
+}
+
+.choice_button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+/*# sourceMappingURL=BasketPromo.module.css.map */

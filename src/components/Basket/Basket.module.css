@@ -50,4 +50,25 @@
   gap: 48px;
 }
 
+@media (max-width: 768px) {
+  .modal_content {
+    max-width: 344px;
+    padding: 25px 0 0;
+    gap: 16px;
+  }
+  .modal_content .cancel_wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .modal_content .title_container {
+    max-width: 344px;
+  }
+  .modal_content .title_container .h1 {
+    font-size: var(--font-size-xl);
+  }
+  .modal_content .title_container .h3 {
+    font-size: var(--font-size-l);
+  }
+}
+
 /*# sourceMappingURL=Basket.module.css.map */

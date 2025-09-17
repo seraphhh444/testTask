@@ -8,7 +8,15 @@
   &.opened{
     opacity: 1;
     pointer-events: auto;
-    z-index: 100;
+    z-index: 10000;
+  }
+
+  &.settings{
+    z-index: 10010;
+
+    .overlay{
+      background: rgb(0 0 0 / 20%);
+    }
   }
 }
 
@@ -20,7 +28,7 @@
 
 .content{
   position: absolute;
-  top: var(--header-height);
+  top: 0;
   right: 0;
   transform: translateX(100%);
   opacity: 0;
@@ -31,3 +39,25 @@
     opacity: 1;
   }
 }
+
+@media(max-width: 768px){
+
+  .overlay{
+    background: #FEFEFE;
+  }
+  .content{
+    top: 0;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%);
+    &.opened{
+      transform: translateX(-50%);
+    }
+
+    &.settings{
+      top: auto;
+      bottom: 0;
+    }
+  }
+}
+

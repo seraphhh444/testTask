@@ -2,7 +2,7 @@
 
 import {Product} from "@/shared/types/product";
 
-const BASKET_KEY = 'basket';
+export const BASKET_KEY = 'basket';
 
 export interface BasketItem extends Product {
     count: number;

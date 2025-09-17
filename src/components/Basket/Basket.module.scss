@@ -47,9 +47,34 @@
   overflow-y: auto;
 
 
+
   .second_section{
     display: flex;
     flex-direction: column;
     gap: 48px;
+  }
+}
+
+@media(max-width: 768px){
+  .modal_content{
+    max-width: 344px;
+    padding: 25px 0 0;
+    gap: 16px;
+
+    .cancel_wrapper{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .title_container{
+      max-width: 344px;
+
+      .h1{
+        font-size: var(--font-size-xl);
+      }
+      .h3{
+        font-size: var(--font-size-l);
+      }
+    }
   }
 }

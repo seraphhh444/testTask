@@ -44,6 +44,7 @@ const Navbar = () => {
                         );
                     })
                 }
+                <Basket opened={open} onClose={onClose} />
             </nav>
         )
     }

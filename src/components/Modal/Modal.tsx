@@ -9,9 +9,10 @@ interface ModalProps {
     children: ReactNode;
     opened: boolean;
     onCancel: (val: boolean) => void;
+    settings?: boolean;
 }
 
-const Modal = ({children, opened, onCancel}: ModalProps) => {
+const Modal = ({children, opened, onCancel, settings}: ModalProps) => {
 
     const onClose = useCallback(()=>{
         onCancel(false);
@@ -32,10 +33,10 @@ const Modal = ({children, opened, onCancel}: ModalProps) => {
 
     return (
         <Portal>
-            <div className={classNames(cls.Modal, {[cls.opened]: opened})}>
+            <div className={classNames(cls.Modal, {[cls.opened]: opened, [cls.settings]: settings}) }>
                 <div className={cls.overlay} onClick={onClose}>
                     <div onClick={(e) => e.stopPropagation()}
-                         className={classNames(cls.content, {[cls.opened]: opened})}>
+                         className={classNames(cls.content, {[cls.opened]: opened, [cls.settings]: settings})}>
                         {children}
                     </div>
                 </div>
