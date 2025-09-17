@@ -48,6 +48,9 @@
   font-size: var(--font-size-l);
   width: 100%;
   word-break: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .article_wrapper {

@@ -34,6 +34,9 @@
   font: var(--font-size-l);
   font-family: var(--font-manrope), sans-serif;
   font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .cost_container {
