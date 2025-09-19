@@ -7,4 +7,13 @@
   opacity: 0.6;
 }
 
+@media (max-width: 768px) {
+  .button:hover {
+    opacity: 1;
+  }
+  .button:active {
+    opacity: 0.6;
+  }
+}
+
 /*# sourceMappingURL=Button.module.css.map */

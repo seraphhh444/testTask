@@ -30,5 +30,13 @@
 
   .navbar_item{
     max-height: 24px;
+
+    &:hover{
+      opacity: 1;
+    }
+
+    &:active{
+      opacity: 0.6;
+    }
   }
 }

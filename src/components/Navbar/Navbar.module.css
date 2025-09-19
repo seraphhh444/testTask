@@ -29,6 +29,12 @@
   .navbar_item {
     max-height: 24px;
   }
+  .navbar_item:hover {
+    opacity: 1;
+  }
+  .navbar_item:active {
+    opacity: 0.6;
+  }
 }
 
 /*# sourceMappingURL=Navbar.module.css.map */

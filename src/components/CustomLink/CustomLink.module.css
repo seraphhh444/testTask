@@ -7,4 +7,10 @@
   opacity: 0.7;
 }
 
+@media (max-width: 768px) {
+  .link:hover {
+    opacity: 1;
+  }
+}
+
 /*# sourceMappingURL=CustomLink.module.css.map */
